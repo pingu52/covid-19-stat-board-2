@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>covid-19</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+
+<body align="center">
+    <h1><!-- title. --></h1>
+    <button class="before" onclick="monthBefore()">이전</button>
+    <button class="after" onclick="monthAfter()">다음</button>
+    <div class="maindiv"  align="center">
+        <table class="maintable">
+            <tbody class="tbody">
+                <tr>
+                    <td class="Firsttd">기준일</td>
+                    <td class="Firsttd">누적확진자 수</td>
+                    <td class="Firsttd">누적사망자 수</td>
+                    <td class="Firsttd">update</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <br><br><hr color="mediumspringgreen"><br><br>
+    <div class="chart" id="chart" align="center"></div>
+
+</body>
+<script src="main.js" ></script>
+
+</html>
